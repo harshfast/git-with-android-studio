@@ -15,6 +15,11 @@
             android:label="@string/title_activity_test2"
             android:theme="@style/Theme.GitApp.NoActionBar" />
         <activity
+            android:name=".RebaseActivity"
+            android:exported="true"
+            android:label="@string/title_activity_rebase"
+            android:theme="@style/Theme.GitApp.NoActionBar" />
+        <activity
             android:name=".TestActivity"
             android:exported="true"
             android:label="@string/title_activity_test"
